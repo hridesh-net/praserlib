@@ -11,7 +11,7 @@ setuptools.setup(
     description="A library to parse PDF, DOCX, and TXT files",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    url="https://github.com/hridesh-net/praserlib.git",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
