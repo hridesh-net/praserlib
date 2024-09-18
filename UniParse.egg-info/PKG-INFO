@@ -11,8 +11,6 @@ Classifier: Operating System :: OS Independent
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 License-File: LICENSE
-Requires-Dist: PyMuPDF>=1.18.0
-Requires-Dist: python-docx>=0.8.10
 
 # UniParse
 
@@ -26,7 +24,7 @@ pip install mylibrary
 
 ## How to Use
 ```python
-from mylibrary import FileParser
+from UniParse import FileParser
 
 parser = FileParser('path/to/your/file.pdf')
 content = parser.parse()
