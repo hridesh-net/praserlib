@@ -10,7 +10,7 @@ pip install mylibrary
 
 ## How to Use
 ```python
-from mylibrary import FileParser
+from UniParse import FileParser
 
 parser = FileParser('path/to/your/file.pdf')
 content = parser.parse()
