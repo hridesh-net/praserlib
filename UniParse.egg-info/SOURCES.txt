@@ -10,4 +10,5 @@ UniParse.egg-info/SOURCES.txt
 UniParse.egg-info/dependency_links.txt
 UniParse.egg-info/requires.txt
 UniParse.egg-info/top_level.txt
+tests/test.py
 tests/test_parser.py

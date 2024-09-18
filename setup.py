@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="UniParse",
-    version="0.1.1",
+    version="0.1.2",
     author="Hridesh",
     author_email="hridesh.khandal@gmail.com",
     description="A library to parse PDF, DOCX, and TXT files",

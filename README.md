@@ -5,7 +5,7 @@ A Python library to parse PDF, DOCX, and TXT files.
 ## Installation
 
 ```bash
-pip install mylibrary
+pip install UniParse
 ```
 
 ## How to Use
