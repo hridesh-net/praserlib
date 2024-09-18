@@ -5,8 +5,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="UniParse",
-    version="0.1.2",
+    version="0.1.3",
     author="Hridesh",
+    keywords='parse parser pdf docx txt uniparse uniparser',
     author_email="hridesh.khandal@gmail.com",
     description="A library to parse PDF, DOCX, and TXT files",
     long_description=long_description,
@@ -14,9 +15,12 @@ setuptools.setup(
     url="https://github.com/hridesh-net/praserlib.git",
     packages=setuptools.find_packages(),
     classifiers=[
+        'Development Status :: 5 - Production/Stable',
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        'Topic :: Software Development :: Libraries :: Python Modules',
+        'Topic :: Text Processing :: Linguistic',
     ],
     python_requires='>=3.8',
     install_requires=[
